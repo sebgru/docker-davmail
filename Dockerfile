@@ -1,8 +1,8 @@
 FROM openjdk:8-jre-alpine
 
-MAINTAINER sebgru v4.8.5
+MAINTAINER sebgru v4.8.6
 
-ADD https://downloads.sourceforge.net/project/davmail/davmail/4.8.5/davmail-4.8.5-2589.zip /tmp/davmail.zip
+ADD https://downloads.sourceforge.net/project/davmail/davmail/4.8.6/davmail-4.8.6-2600.zip /tmp/davmail.zip
 
 RUN adduser davmail -D && \
   mkdir /usr/local/davmail && \
