@@ -2,7 +2,7 @@
 
 # DavMail for Docker
 
-**Davmail Version: 5.4.0**
+**Davmail Version: 5.5.0**
 
 [Davmail Gateway](http://davmail.sourceforge.net/) in a Docker container.
 
