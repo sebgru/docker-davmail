@@ -1,0 +1,8 @@
+#
+# .gitignore
+# More information about this file:
+#   http://git-scm.com/docs/gitignore
+#
+# ignore temporary files/folders
+# folders
+.vscode

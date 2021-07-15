@@ -1,0 +1,11 @@
+# .gitattributes
+# More information about this file:
+#   http://git-scm.com/book/en/v2/Customizing-Git-Git-Attributes
+#
+
+# Set the default behavior, in case people don't have core.autocrlf set.
+* text=auto
+* text eol=lf
+
+# Explicitly declare text files you want to always be normalized and converted
+# to native line endings on checkout.
