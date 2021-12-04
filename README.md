@@ -2,7 +2,7 @@
 
 # DavMail for Docker
 
-**Davmail Version: 6.0.0**
+**Davmail Version: 6.0.1**
 
 [Davmail Gateway](http://davmail.sourceforge.net/) in a Docker container.
 
@@ -29,8 +29,8 @@ The following ports are exposed by the container [2]:
 * smtp: 1025
 
 ## References
-\# | Link
------------- | -------------
-[1] | http://davmail.sourceforge.net/
-[2] | http://davmail.sourceforge.net/serversetup.html
+| \#  | Link                                            |
+| --- | ----------------------------------------------- |
+| [1] | http://davmail.sourceforge.net/                 |
+| [2] | http://davmail.sourceforge.net/serversetup.html |
      
