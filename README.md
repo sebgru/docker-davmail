@@ -1,8 +1,8 @@
-![Docker Cloud Build Status](https://img.shields.io/docker/cloud/build/sebgru/davmail.svg) ![Docker Pulls](https://img.shields.io/docker/pulls/sebgru/davmail.svg) ![Docker Stars](https://img.shields.io/docker/stars/sebgru/davmail.svg) ![GitHub](https://img.shields.io/github/license/sebgru/docker-davmail.svg)
-
 # DavMail for Docker
 
-**Davmail Version: 6.0.1**
+[![docker build](https://github.com/sebgru/docker-davmail/actions/workflows/docker-image.yml/badge.svg)](https://github.com/sebgru/docker-davmail/actions/workflows/docker-image.yml)  ![Docker Pulls](https://img.shields.io/docker/pulls/sebgru/davmail.svg) ![Docker Stars](https://img.shields.io/docker/stars/sebgru/davmail.svg) ![GitHub](https://img.shields.io/github/license/sebgru/docker-davmail.svg)
+
+Davmail Version: **6.0.1**
 
 [Davmail Gateway](http://davmail.sourceforge.net/) in a Docker container.
 
@@ -29,8 +29,8 @@ The following ports are exposed by the container [2]:
 * smtp: 1025
 
 ## References
-| \#  | Link                                            |
-| --- | ----------------------------------------------- |
-| [1] | http://davmail.sourceforge.net/                 |
-| [2] | http://davmail.sourceforge.net/serversetup.html |
-     
+
+| \#  | Link                                                                                               |
+| --- | -------------------------------------------------------------------------------------------------- |
+| [1] | [http://davmail.sourceforge.net/](http://davmail.sourceforge.net/)                                 |
+| [2] | [http://davmail.sourceforge.net/serversetup.html](http://davmail.sourceforge.net/serversetup.html) |
