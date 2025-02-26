@@ -2,7 +2,7 @@
 
 [![docker build](https://github.com/sebgru/docker-davmail/actions/workflows/docker-image.yml/badge.svg)](https://github.com/sebgru/docker-davmail/actions/workflows/docker-image.yml)  ![Docker Pulls](https://img.shields.io/docker/pulls/sebgru/davmail.svg) ![Docker Stars](https://img.shields.io/docker/stars/sebgru/davmail.svg) ![GitHub](https://img.shields.io/github/license/sebgru/docker-davmail.svg)
 
-Davmail Version: **6.0.1**
+Davmail Version: **6.1.0**
 
 Dockerfile can be obtained at [sebgru/docker-davmail](https://github.com/sebgru/docker-davmail).
 
