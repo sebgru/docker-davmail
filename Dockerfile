@@ -1,6 +1,6 @@
-FROM openjdk:8-jre-alpine
+FROM eclipse-temurin:11-jre-alpine
 
-ADD https://downloads.sourceforge.net/project/davmail/davmail/6.3.0/davmail-6.3.0-3627.zip /tmp/davmail.zip
+ADD https://downloads.sourceforge.net/project/davmail/davmail/6.0.0/davmail-6.0.0-3375.zip /tmp/davmail.zip
 
 RUN adduser davmail -D && \
   mkdir /usr/local/davmail && \
