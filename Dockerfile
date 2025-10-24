@@ -1,6 +1,6 @@
-FROM eclipse-temurin:23-jre-alpine
+FROM eclipse-temurin:25-jre-alpine
 
-ADD https://downloads.sourceforge.net/project/davmail/davmail/6.5.0/davmail-6.5.0-3847.zip /tmp/davmail.zip
+ADD https://downloads.sourceforge.net/project/davmail/davmail/6.5.0/davmail-6.5.0-3850.zip /tmp/davmail.zip
 
 RUN adduser davmail -D && \
   mkdir /usr/local/davmail && \
