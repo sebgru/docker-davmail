@@ -1,0 +1,49 @@
+{
+    "name": "docker-davmail",
+    "build": {
+        "context": "..",
+        "dockerfile": "Dockerfile"
+    },
+    "workspaceFolder": "/workspace",
+    "features": {
+        "ghcr.io/devcontainers/features/docker-outside-of-docker:1": {
+            "moby": false
+        },
+        "ghcr.io/devcontainers/features/github-cli:1": {
+            "version": "latest"
+        }
+    },
+    "mounts": [
+        "source=${env:HOME}/.gitconfig,target=/home/vscode/.gitconfig,type=bind,consistency=cached",
+        "source=${env:HOME}/.config/gh,target=/home/vscode/.config/gh,type=bind,consistency=cached",
+        "source=${env:HOME}/.profile,target=/home/vscode/.profile,type=bind,consistency=cached",
+        "source=${env:HOME}/.ssh,target=/home/vscode/.ssh,type=bind,consistency=cached",
+        "source=${localWorkspaceFolder},target=/workspace,type=bind"
+    ],
+    "postStartCommand": "sudo chown -R vscode:vscode /home/vscode/.config/gh && echo '--- gh auth status ---' && gh auth status || echo 'WARNING: gh is not logged in - run gh auth login'",
+    "containerEnv": {
+        "DOCKER_HOST": "unix:///var/run/docker.sock"
+    },
+    "customizations": {
+        "vscode": {
+            "settings": {
+                "terminal.integrated.defaultProfile.linux": "zsh",
+                "terminal.integrated.profiles.linux": {
+                    "zsh": {
+                        "path": "/bin/zsh"
+                    }
+                },
+                "editor.tabSize": 2
+            },
+            "extensions": [
+                "docker.docker",
+                "github.vscode-github-actions",
+                "ms-azuretools.vscode-docker",
+                "ms-vscode-remote.remote-containers",
+                "redhat.vscode-yaml",
+                "github.vscode-pull-request-github",
+                "streetsidesoftware.code-spell-checker"
+            ]
+        }
+    }
+}
