@@ -1,5 +1,9 @@
 # DavMail for Docker
 
+> [!WARNING]
+> **This project is not needed anymore.** Official Docker images are now available directly from the original DavMail source:
+> [mguessan/davmail on GitHub Container Registry](https://github.com/mguessan/davmail/pkgs/container/davmail)
+
 [![docker build](https://github.com/sebgru/docker-davmail/actions/workflows/docker-image.yml/badge.svg)](https://github.com/sebgru/docker-davmail/actions/workflows/docker-image.yml)  ![Docker Pulls](https://img.shields.io/docker/pulls/sebgru/davmail.svg) ![Docker Stars](https://img.shields.io/docker/stars/sebgru/davmail.svg) ![GitHub](https://img.shields.io/github/license/sebgru/docker-davmail.svg)
 
 Davmail Version: **6.8.1**
